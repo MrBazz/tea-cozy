@@ -69,10 +69,6 @@ nav span a {
   padding: 175px;
   margin-right: 20px;
 }
-
-.tea {
-
-}
 .text-content {
   text-align: center;
   font-weight: bold;
@@ -80,6 +76,7 @@ nav span a {
   padding-bottom: 100px;
 }
 .gallery img {
+  display: inline-block;
   width: 300px;
   height: 200px;
   justify-content: space-between;
