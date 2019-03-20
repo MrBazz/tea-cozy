@@ -1,3 +1,5 @@
+/* CSS Document */
+/* Universal Styles */
 body {
   font-family: Helvetica;
   background-color: Black;
@@ -13,23 +15,6 @@ header {
   height: 69px;
   padding: 10px;
   opacity: 0.9;
-}
-h2 {
-  font-weight: bold;
-  color: seashell;
-  font-size: 35px;
-  text-align: center;
-}
-h3 {
-  font-family: Helvetica;
-  font-size: 22px;
-  color: seashell;
-  padding-top: 10px;
-}
-h4 {
-  text-align: center;
-  font-size: 20px;
-  color: seashell;
 }
 header nav {
   display: flex;
@@ -47,68 +32,4 @@ nav span a {
 .logo {
   display: flex;
   flex-grow: 1;
-}
-
-.mission {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  display: flex;
-  width: 1200px;
-  height: 700px;
-  }
-.mission img {
-  display: inline-flex;
-  align-items: center;
-  width: 1200px;
-  height: 700px;
-  padding-left: 250px;
-  padding-right: 100px;
-  padding-top: 700px;
-  padding-bottom: 350px;
-
-}
-
-.mission-content {
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items:center;
-  color: white;
-  padding: 400px;
-  margin-right: 20px;
-}
-.text-content {
-  text-align: center;
-  font-weight: bold;
-  padding-top: 200px;
-  padding-bottom: 100px;
-}
-.gallery img {
-  display: inline-block;
-  width: 300px;
-  height: 200px;
-  justify-content: space-between;
-  padding: 15px;
-  align-items: center;
-}
-.gallery {
-  display: inline-block;
-  align-content: center;
-  width: 1000px;
-  justify-content: space-between;
-}
-
-.location {
-  display: flex;
-
-}
-.location img {
-  display: flex;
-  width: 1200px;
-  height: 500px;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
-  padding: 150px;
 }
