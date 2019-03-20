@@ -4,6 +4,14 @@ body {
   font-family: Helvetica;
   background-color: Black;
 }
+h2,
+h3,
+h4,
+h5 {
+  font-family: Helvetica;
+  font-weight: bold;
+  color: seashell;
+}
 
 header {
   display: flex;
@@ -32,4 +40,26 @@ nav span a {
 .logo {
   display: flex;
   flex-grow: 1;
+}
+/* Main Banner */
+.main-banner {
+  background: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  background-repeat: no-repeat;
+  height: 700px;
+  background-position: center;
+  background-size: cover;
+}
+.headline {
+  width: 1200px;
+  background-color: black;
+}
+/* Products */
+.products {
+  display: flex;
+  justify-content: space-between;
+}
+.products.image {
+  display: flex;
+  width: 300px;
+  height: 200px;
 }
