@@ -4,7 +4,11 @@ body {
   font-family: Helvetica;
   background-color: Black;
 }
-h1,
+h1 {
+  text-align: center;
+  color: seashell;
+  font-weight: bold;
+}
 h2,
 h3,
 h4,
